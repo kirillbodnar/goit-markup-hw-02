@@ -26,12 +26,20 @@ body {
 }
 
 .logo1 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   font-family: Raleway;
   font-style: normal;
   color: #2196f3;
 }
 
 .logo2 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   font-family: Raleway;
   font-style: normal;
   color: var(--main-title-color);
@@ -46,7 +54,7 @@ body {
 }
 
 .main-link:hover,
-:focus {
+.main-link:focus {
   color: var(--accent-color);
 }
 
@@ -59,7 +67,7 @@ body {
 }
 
 .nav-mail:hover,
-:focus {
+.nav-mail:focus {
   color: var(--accent-color);
 }
 
@@ -72,7 +80,7 @@ body {
 }
 
 .nav-phone:hover,
-:focus {
+.nav-phone:focus {
   color: var(--accent-color);
 }
 
@@ -89,6 +97,7 @@ body {
 }
 
 .main-btn {
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1, 87;
@@ -160,6 +169,10 @@ body {
 /* -------------------footer-------------------------- */
 
 .logo3 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   font-family: Raleway;
   font-style: normal;
   color: white;
@@ -184,7 +197,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
-  color: var(--main-text-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* -------------------portfolio-------------------------- */
@@ -194,6 +207,7 @@ body {
 }
 
 .help-btn {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -205,7 +219,8 @@ body {
 }
 
 .help-btn:hover,
-:focus {
+.help-btn:focus {
+  font-family: inherit;
   color: white;
   background-color: var(--accent-color);
 }
