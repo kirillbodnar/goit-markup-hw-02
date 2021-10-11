@@ -11,6 +11,7 @@ body {
   font-family: roboto, sans-serif;
   color: var(--main-text-color);
 }
+
 .list {
   list-style: none;
 }
@@ -41,9 +42,9 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--main-title-color);
 }
+
 .main-link:hover,
 :focus {
   color: var(--accent-color);
@@ -163,6 +164,7 @@ body {
   font-style: normal;
   color: white;
 }
+
 .footer {
   background-color: var(--secondary-background-color);
 }
