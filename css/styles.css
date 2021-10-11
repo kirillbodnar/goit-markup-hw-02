@@ -16,7 +16,7 @@ body {
 }
 
 .link {
-    text-decoration:none;
+  text-decoration: none;
 }
 /* -------------------header-------------------------- */
 
@@ -28,14 +28,12 @@ body {
   font-family: Raleway;
   font-style: normal;
   color: #2196f3;
-  
 }
 
 .logo2 {
   font-family: Raleway;
   font-style: normal;
   color: var(--main-title-color);
-  
 }
 
 .main-link {
@@ -43,7 +41,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  
+
   color: var(--main-title-color);
 }
 .main-link:hover,
@@ -107,7 +105,7 @@ body {
 }
 
 .section1-header {
-  display: none;
+  visibility: hidden;
 }
 
 .section1-title {
@@ -190,7 +188,7 @@ body {
 /* -------------------portfolio-------------------------- */
 
 .portfolio-header {
-  display: none;
+  visibility: hidden;
 }
 
 .help-btn {
@@ -216,7 +214,6 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-title-color);
-   none;
 }
 
 .list-item-text {
@@ -224,10 +221,8 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-   none;
 }
 
 .section3 {
-    background-color: var(--main-background-color);
+  background-color: var(--main-background-color);
 }
-
